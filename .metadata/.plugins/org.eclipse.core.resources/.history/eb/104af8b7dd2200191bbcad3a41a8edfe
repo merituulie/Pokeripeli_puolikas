@@ -1,0 +1,99 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+
+public class Testi {
+	private static ArrayList<Kortti> kasikortit = new ArrayList<>();
+	private static String maanimi = "";
+	private static int arvo = 0;
+	
+	public static void main(String[] args) {
+		
+		for (int i = 0; i<=4;i++) {
+			Kortti k = new Kortti();
+			maanimi = "Hertta";
+			arvo = i;
+			k.setMaanimi(maanimi);
+			k.setArvo(arvo);
+			kasikortit.add(k);
+			System.out.println(kasikortit.get(i).getArvo() + ", " + arvo +"\n"
+					+ kasikortit.get(i).getMaanimi());
+		}
+		System.out.println();
+		System.out.println(onkoSuora(kasikortit));
+		System.out.println(onkoVari(kasikortit));
+		System.out.println(onkoVariSuora(kasikortit));
+		System.out.println();
+		
+		for (int i = 0; i<=4;i++) {
+			Kortti k = new Kortti();
+			if (i != 1) {
+			maanimi = "Hertta";
+			arvo = i+5;
+			} else {
+			maanimi = "Risti";
+			arvo = i;
+			}
+			k.setMaanimi(maanimi);
+			k.setArvo(arvo);
+			kasikortit.add(k);
+			System.out.println(kasikortit.get(i).getArvo() + ", " + arvo +"\n"
+					+ kasikortit.get(i).getMaanimi());
+		}
+		System.out.println();
+		System.out.println(onkoSuora(kasikortit));
+		System.out.println(onkoVari(kasikortit));
+		System.out.println(onkoVariSuora(kasikortit));
+		System.out.println();
+	
+		for (int i = 0; i<=4;i++) {
+			Kortti k = new Kortti();
+			maanimi = "Hertta";
+			arvo = i;
+			k.setMaanimi(maanimi);
+			k.setArvo(arvo);
+			kasikortit.add(k);
+			System.out.println(kasikortit.get(i).getArvo() + ", " + arvo +"\n"
+					+ kasikortit.get(i).getMaanimi());
+		}
+		System.out.println();
+		System.out.println(onkoSuora(kasikortit));
+		System.out.println(onkoVari(kasikortit));
+		System.out.println(onkoVariSuora(kasikortit));
+	}
+	
+	private static boolean onkoSuora(ArrayList<Kortti> kasikortit) {
+		ArrayList<Integer> arvot = new ArrayList<>();
+		for (Kortti k : kasikortit) {
+			arvot.add(k.getArvo());
+		}
+		Collections.sort(arvot);
+		for (int i=0;i<4;i++) {
+			if (arvot.get(i) != arvot.get(i+1)-1) {
+				return false;
+			}
+		}
+		return true;
+	}
+	
+	private static boolean onkoVari(ArrayList<Kortti> kasikortit) {
+		ArrayList<Integer> maat = new ArrayList<>();
+		
+		for (int i = 0; i<=4; i++) {
+			maat.add(kasikortit.get(i).getMaa());
+		}
+		for (int i=0;i<4;i++) {
+			if (maat.get(i) != maat.get(i+1)) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+    private static boolean onkoVariSuora(ArrayList<Kortti> kasikortit) {
+        if (onkoVari(kasikortit) == true && onkoSuora(kasikortit) == true) {
+        	return true;
+        }
+        return false;
+    	}
+}

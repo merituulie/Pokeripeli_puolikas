@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+
+
+public class Pelaaja {
+	private ArrayList<Kortti> käsikortit = new ArrayList<>();
+	
+	public Pelaaja() {
+		
+	}
+	
+	public Pelaaja(ArrayList<Kortti> käsikortit) {
+		
+	}
+	
+}

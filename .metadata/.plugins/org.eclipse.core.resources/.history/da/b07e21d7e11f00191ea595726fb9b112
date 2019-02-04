@@ -1,0 +1,36 @@
+
+public class Kortti {
+	private String maa;
+	private int arvo;
+
+	public Kortti() {
+		
+	}
+
+	public Kortti(int maa, int arvo) {
+		this.maa = maa;
+		this.arvo = arvo;
+	}
+
+	public int getMaa() {
+		return maa;
+	}
+
+	public void setMaa(int maa) {
+		this.maa = maa;
+	}
+
+	public int getArvo() {
+		return arvo;
+	}
+
+	public void setArvo(int arvo) {
+		this.arvo = arvo;
+	}
+
+	@Override
+	public String toString() {
+		return "Kortin maa: " + maa + ", arvo: " + arvo;
+	}
+	
+}

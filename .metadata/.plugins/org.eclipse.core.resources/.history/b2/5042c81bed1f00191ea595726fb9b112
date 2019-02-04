@@ -1,0 +1,30 @@
+import java.util.ArrayList;
+
+
+public class Pelaaja {
+	private ArrayList<Kortti> käsikortit = new ArrayList<>();
+	
+	public Pelaaja() {
+		
+	}
+	
+	public Pelaaja(ArrayList<Kortti> käsikortit) {
+		this.käsikortit = käsikortit;
+	}
+
+	public ArrayList<Kortti> getKäsikortit() {
+		return käsikortit;
+	}
+
+	public void setKäsikortit(ArrayList<Kortti> käsikortit) {
+		this.käsikortit = käsikortit;
+	}
+
+	@Override
+	public String toString() {
+		return "Pelaajan käsikortit: ";
+	}
+	
+	
+	
+}

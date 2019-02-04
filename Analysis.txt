@@ -1,0 +1,63 @@
+Pelaajan 1 käsikortit: 
+Kortin maa: Ruutu,  arvo: 9
+Kortin maa: Pata,  arvo: 10
+Kortin maa: Pata,  arvo: 7
+Kortin maa: Pata,  arvo: 4
+Kortin maa: Risti,  arvo: 6
+Ei kokonaisuuksia!
+
+Pelaajan 1 käsikortit: 
+Kortin maa: Hertta,  arvo: 11
+Kortin maa: Pata,  arvo: 12
+Kortin maa: Ruutu,  arvo: 3
+Kortin maa: Risti,  arvo: 11
+Kortin maa: Hertta,  arvo: 3
+Kaksi paria!
+
+Pelaajan 2 käsikortit: 
+Kortin maa: Hertta,  arvo: 9
+Kortin maa: Pata,  arvo: 10
+Kortin maa: Ruutu,  arvo: 10
+Kortin maa: Ruutu,  arvo: 13
+Kortin maa: Risti,  arvo: 7
+Pari!
+
+Pelaajan 2 käsikortit: 
+Kortin maa: Risti,  arvo: 7
+Kortin maa: Pata,  arvo: 7
+Kortin maa: Ruutu,  arvo: 7
+Kortin maa: Risti,  arvo: 9
+Kortin maa: Pata,  arvo: 1
+Kolmoset!
+
+Pelaajan 1 käsikortit: 
+Kortin maa: Hertta,  arvo: 9
+Kortin maa: Ruutu,  arvo: 5
+Kortin maa: Ruutu,  arvo: 6
+Kortin maa: Pata,  arvo: 7
+Kortin maa: Hertta,  arvo: 8
+Suora!
+
+Pelaajan 1 käsikortit: 
+Kortin maa: Hertta,  arvo: 8
+Kortin maa: Hertta,  arvo: 11
+Kortin maa: Hertta,  arvo: 2
+Kortin maa: Hertta,  arvo: 6
+Kortin maa: Hertta,  arvo: 3
+Väri!
+
+Pelaajan 3 käsikortit: 
+Kortin maa: Pata,  arvo: 13
+Kortin maa: Hertta,  arvo: 13
+Kortin maa: Risti,  arvo: 13
+Kortin maa: Ruutu,  arvo: 7
+Kortin maa: Ruutu,  arvo: 13
+Neloset!
+
+Pelaajan 2 käsikortit: 
+Kortin maa: Pata,  arvo: 10
+Kortin maa: Pata, arvo: 8
+Kortin maa: Pata,  arvo: 12
+Kortin maa: Pata,  arvo: 9
+Kortin maa: Pata,  arvo: 11
+Värisuora!
